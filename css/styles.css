@@ -83,7 +83,7 @@ hr {
 /* offers section */
 .offers {
   text-align: center;
-  padding: 3% 15% 7%;
+  padding: 3% 15% 5%;
 }
 
 .offers-heading, .test-heading {
@@ -99,15 +99,23 @@ hr {
   color: #706c61;
 }
 
+.card {
+  box-shadow: 1px 1px 5px 1px #cccccc;
+}
+
 .card-img-top {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+}
+
+.card-img-top:hover {
+  width: 101%;
 }
 
 /* testimonials section */
 .testimonials{
   text-align: center;
-  padding: 3% 10% 0;
+  padding: 3% 10%;
 }
 
 .carousel {
@@ -152,7 +160,7 @@ hr {
 
 /* Contact-us section */
 .contact-us {
-  padding: 3% 2% 2%;
+  padding: 2%;
   text-align: center;
   background-image: url("../images/bkg.jpeg");
   background-repeat: no-repeat;
